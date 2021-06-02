@@ -15,8 +15,6 @@ elseif player.UserId == 2577289001 then
 player:Kick("                           You Have Been Blacklisted From WetHub! Reason:                      You Joined The Discord WetHub Server Just To Leave After Getting The Script!                                                You Can Appeal In A Ticket On The Discord Server, Discord Link Has Been Copied To Your Clipboard.")
 elseif player.UserId == 164934410 then
 player:Kick("                           You Have Been Blacklisted From WetHub! Reason:                      You Joined The Discord WetHub Server Just To Leave After Getting The Script!                                                You Can Appeal In A Ticket On The Discord Server, Discord Link Has Been Copied To Your Clipboard.")
-elseif player.UserId == 2323054490 then
-player:Kick("                           You Have Been Blacklisted From WetHub! Reason:                      You Joined The Discord WetHub Server Just To Leave After Getting The Script!                                                You Can Appeal In A Ticket On The Discord Server, Discord Link Has Been Copied To Your Clipboard.")
 end
 setclipboard("https://discord.gg/SPeefsERVy")
 warn("Blacklist Checked!")
