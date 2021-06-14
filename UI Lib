@@ -7,7 +7,7 @@ local CoreGuiService = game:GetService("CoreGui")
 local RunService = game:GetService("RunService")
 local TextService = game:GetService("TextService")
 
-local TweenTime = 0.1
+local TweenTime = 0.5
 local Level = 1
 
 local GlobalTweenInfo = TweenInfo.new(TweenTime)
@@ -565,7 +565,7 @@ function UILibrary.Load(GUITitle)
 				PickerRightSide.ImageColor3 = NewValue
 			end)
 			
-			local PickerToggle = false
+			local PickerToggle = true
 			
 			local PickerButton = TextButton("")
 			PickerButton.Parent = PickerRightSide
