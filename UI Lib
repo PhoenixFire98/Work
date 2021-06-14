@@ -565,7 +565,7 @@ function UILibrary.Load(GUITitle)
 				PickerRightSide.ImageColor3 = NewValue
 			end)
 			
-			local PickerToggle = false
+			local PickerToggle = true
 			
 			local PickerButton = TextButton("")
 			PickerButton.Parent = PickerRightSide
