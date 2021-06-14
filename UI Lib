@@ -124,7 +124,7 @@ local function TextButton(Text, Size)
 	NewTextButton.Text = Text
 	NewTextButton.AutoButtonColor = false
 	NewTextButton.Font = MainFont
-	NewTextButton.TextColor3 = Color3.fromRGB(255,0,0)
+	NewTextButton.TextColor3 = Color3.fromRGB(255,255,255)
 	NewTextButton.BackgroundTransparency = 1
 	NewTextButton.TextSize = Size or 12
 	NewTextButton.Size = UDim2.new(1,0,1,0)
@@ -136,7 +136,7 @@ local function TextBox(Text, Size)
 	local NewTextBox = Instance.new("TextBox")
 	NewTextBox.Text = Text
 	NewTextBox.Font = MainFont
-	NewTextBox.TextColor3 = Color3.fromRGB(255,0,0)
+	NewTextBox.TextColor3 = Color3.fromRGB(255,255,255)
 	NewTextBox.BackgroundTransparency = 1
 	NewTextBox.TextSize = Size or 12
 	NewTextBox.Size = UDim2.new(1,0,1,0)
@@ -148,7 +148,7 @@ local function TextLabel(Text, Size)
 	local NewTextLabel = Instance.new("TextLabel")
 	NewTextLabel.Text = Text
 	NewTextLabel.Font = MainFont
-	NewTextLabel.TextColor3 = Color3.fromRGB(80,80,80)
+	NewTextLabel.TextColor3 = Color3.fromRGB(255,255,255)
 	NewTextLabel.BackgroundTransparency = 1
 	NewTextLabel.TextSize = Size or 12
 	NewTextLabel.Size = UDim2.new(1,0,1,0)
@@ -197,7 +197,7 @@ function UILibrary.Load(GUITitle)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Size = UDim2.new(1,-50,1,-30)
 	MainFrame.Position = UDim2.new(0,25,0,15)
-	MainFrame.ImageColor3 = Color3.fromRGB(80,80,80)
+	MainFrame.ImageColor3 = Color3.fromRGB(50,50,50)
 	MainFrame.Parent = ContainerFrame
 	
 	local MenuBar, DisplayFrame, TitleBar
@@ -205,7 +205,7 @@ function UILibrary.Load(GUITitle)
 	MenuBar = ScrollingFrame()
 	MenuBar.Name = "MenuBar"
 	MenuBar.BackgroundTransparency = 0.7
-	MenuBar.BackgroundColor3 = Color3.fromRGB(244,0,0)
+	MenuBar.BackgroundColor3 = Color3.fromRGB(20,20,20)
 	MenuBar.Size = UDim2.new(0,100,0,235)
 	MenuBar.Position = UDim2.new(0,5,0,30)
 	MenuBar.CanvasSize = UDim2.new(0,0,0,0)
@@ -213,7 +213,7 @@ function UILibrary.Load(GUITitle)
 	
 	DisplayFrame = RoundBox(5)
 	DisplayFrame.Name = "Display"
-	DisplayFrame.ImageColor3 = Color3.fromRGB(60,60,60)
+	DisplayFrame.ImageColor3 = Color3.fromRGB(20,20,20)
 	DisplayFrame.Size = UDim2.new(1,-115,0,235)
 	DisplayFrame.Position = UDim2.new(0,110,0,30)
 	DisplayFrame.Parent = MainFrame
@@ -289,7 +289,7 @@ function UILibrary.Load(GUITitle)
 		PageContainer.Name = PageTitle
 		PageContainer.Size = UDim2.new(1,0,0,20)
 		PageContainer.LayoutOrder = TabCount
-		PageContainer.ImageColor3 = (TabCount == 0) and Color3.fromRGB(90,90,90) or Color3.fromRGB(80,80,80)
+		PageContainer.ImageColor3 = (TabCount == 0) and Color3.fromRGB(50,50,50) or Color3.fromRGB(40,40,40)
 		PageContainer.Parent = MenuBar
 		
 		local PageButton = TextButton(PageTitle, 14)
@@ -303,7 +303,7 @@ function UILibrary.Load(GUITitle)
 					if Button:IsA("GuiObject") then
 						local IsButton = string.find(Button.Name:lower(), PageContainer.Name:lower())
 						local Button2 = Button:FindFirstChild(Button.Name.."Button")
-						Tween(Button, {ImageColor3 = IsButton and Color3.fromRGB(70,70,70) or Color3.fromRGB(40,40,40)})
+						Tween(Button, {ImageColor3 = IsButton and Color3.fromRGB(50,50,50) or Color3.fromRGB(40,40,40)})
 						Tween(Button2, {TextTransparency = IsButton and 0 or 0.5})
 					end
 				end
@@ -346,11 +346,11 @@ function UILibrary.Load(GUITitle)
 		if SearchBarIncluded then
 			local SearchBarContainer = RoundBox(5)
 			SearchBarContainer.Name = "SearchBar"
-			SearchBarContainer.ImageColor3 = Color3.fromRGB(50,50,50)
+			SearchBarContainer.ImageColor3 = Color3.fromRGB(35,35,35)
 			SearchBarContainer.Size = UDim2.new(1,0,0,20)
 			SearchBarContainer.Parent = DisplayPage
 			
-			local SearchBox = TextBox("Whatcha Wanna Search?")
+			local SearchBox = TextBox("Search...")
 			SearchBox.Name = "SearchInput"
 			SearchBox.Position = UDim2.new(0,20,0,0)
 			SearchBox.Size = UDim2.new(1,-20,1,0)
@@ -565,9 +565,9 @@ function UILibrary.Load(GUITitle)
 				PickerRightSide.ImageColor3 = NewValue
 			end)
 			
-			local PickerToggle = true
+			local PickerToggle = false
 			
-			local PickerButton = TextButton("Yes")
+			local PickerButton = TextButton("")
 			PickerButton.Parent = PickerRightSide
 			
 			PickerButton.MouseButton1Down:Connect(function()
@@ -674,7 +674,7 @@ function UILibrary.Load(GUITitle)
 			FlatRight.Size = UDim2.new(0,5,1,0)
 			FlatRight.Parent = ToggleRightSide
 			
-			EffectFrame.BackgroundColor3 = ThisToggle and Color3.fromRGB(244,0,0) or Color3.fromRGB(244,0,0)
+			EffectFrame.BackgroundColor3 = ThisToggle and Color3.fromRGB(0,255,109) or Color3.fromRGB(255,160,160)
 			EffectFrame.Position = UDim2.new(1,-22,0.2,0)
 			EffectFrame.Size = UDim2.new(0,2,0.6,0)
 			EffectFrame.Parent = ToggleContainer
