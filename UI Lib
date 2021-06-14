@@ -567,7 +567,7 @@ function UILibrary.Load(GUITitle)
 			
 			local PickerToggle = true
 			
-			local PickerButton = TextButton("")
+			local PickerButton = TextButton("Yes")
 			PickerButton.Parent = PickerRightSide
 			
 			PickerButton.MouseButton1Down:Connect(function()
