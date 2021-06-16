@@ -1,0 +1,224 @@
+warn("------------------------------------------------")
+print("Notifcations Loading")
+if game.PlaceId == 536102540 then
+print("Dragon Ball Z Final Stand Detected, Loading Notifcations!")
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "DBZ:FS Detected!";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = ("From WetHub");
+	Text = ("Enjoy Using WetHub, " .. player.Name);
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+elseif game.PlaceId == 5272267802 then
+print("Be A Toy Detected, Loading Notifcations!")
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Be A Toy Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Be A Toy Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+elseif game.PlaceId == 3101667897 then
+print("Legends Of Speed Detected, Loading Notifcations!")
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "LOP Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Legends Of Speed Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+elseif
+game.PlaceId == 3527629287 then
+print("Big Paintball Detected, Loading Notifcations!") 
+NoDropEnabled = false
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Paintball Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] BigPaintball Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+elseif
+game.PlaceId == 2551991523 then
+print("Broken Bones IV Detected, Loading Notifcations!")
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Broken Bones Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Broken Bones IV Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+elseif
+game.PlaceId == 2986677229 then
+print("Giant Simulator Detected, Loading Notifcations!")
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Giant Sim Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Giant Simulator Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+elseif
+game.PlaceId == 537413528 then
+print("Build A Boat For Treasure Detected, Loading Notifcations!")
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "BABFT Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Build A Boat For Treasure Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+elseif game.PlaceId == 1962086868 then
+print("Tower Of Hell Detected, Loading Notifcations!")
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "TOH Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Tower Of Hell Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96;   
+})
+elseif game.PlaceId == 189707 then
+print("Natural Disaster Detected, Loading Notifcations!")
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "K.O Sim Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Natural Disaster Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+elseif game.PlaceId == 3775649046 then
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "K.O Sim Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] K.O Simulator Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+else
+    local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "No Game Detected";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/SPeefsERVy")
+})
+
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Universal Script Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+end
+print("Notifcations Loaded")
+warn("------------------------------------------------")
