@@ -11,18 +11,6 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-})
-local player = game.Players.LocalPlayer
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
-	Title = ("From WetHub");
-	Text = ("Enjoy Using WetHub, " .. player.Name);
-	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
-	Duration = 25;
-	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/8E3ZRAMs3a")
-})
 elseif game.PlaceId == 536102540 then
 print("Dragon Ball Z Final Stand Detected, Loading Notifcations!")
 local player = game.Players.LocalPlayer
