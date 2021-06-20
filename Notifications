@@ -1,17 +1,16 @@
 warn("------------------------------------------------")
 print("Notifcations Loading")
-if game.PlaceId == 536102540 then
-print("Dragon Ball Z Final Stand Detected, Loading Notifcations!")
+if game.PlaceId == 286090429 then
+print("Arsenal Detected!")
 local player = game.Players.LocalPlayer
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
-	Title = "DBZ:FS Detected!";
-	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Title = "Arsenal Detected!";
+	Text = "Enjoy!";
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
 })
 local player = game.Players.LocalPlayer
 local NotificationBindable = Instance.new("BindableFunction")
@@ -22,7 +21,31 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
+})
+elseif game.PlaceId == 536102540 then
+print("Dragon Ball Z Final Stand Detected, Loading Notifcations!")
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "DBZ:FS Detected!";
+	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
+})
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = ("From WetHub");
+	Text = ("Enjoy Using WetHub, " .. player.Name);
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 elseif game.PlaceId == 5272267802 then
 print("Be A Toy Detected, Loading Notifcations!")
@@ -34,7 +57,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -53,7 +76,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -74,7 +97,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -94,7 +117,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -114,7 +137,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -134,7 +157,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -153,7 +176,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -172,7 +195,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -190,7 +213,7 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 
 local player = game.Players.LocalPlayer
@@ -209,12 +232,12 @@ game.StarterGui:SetCore("SendNotification",  {
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/SPeefsERVy")
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 
 local player = game.Players.LocalPlayer
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-Text = ("[WetHub] Universal Script Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Text = ("[WetHub] Universal Script Loaded! Enjoy Using WetHub | CutieHub, " .. player.Name);
 Font = 2;
 Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
