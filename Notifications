@@ -1,7 +1,7 @@
 warn("------------------------------------------------")
 print("Notifcations Loading")
-if game.PlaceId == 286090429 then
-print("Arsenal Detected!")
+if game.PlaceId == 286090429 then --1
+print("Arsenal Detected, Loading Notifications!")
 local player = game.Players.LocalPlayer
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
@@ -12,14 +12,14 @@ game.StarterGui:SetCore("SendNotification",  {
 	Duration = 25;
 	Callback = NotificationBindable;
 })
-elseif game.PlaceId == 536102540 then
+elseif game.PlaceId == 536102540 then --2
 print("Dragon Ball Z Final Stand Detected, Loading Notifcations!")
 local player = game.Players.LocalPlayer
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
 	Title = "DBZ:FS Detected!";
-	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Text = "This Script Was Made By WetWipes, Enjoy";
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
@@ -36,13 +36,61 @@ game.StarterGui:SetCore("SendNotification",  {
 	Callback = NotificationBindable;
 setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
-elseif game.PlaceId == 5272267802 then
+elseif game.PlaceId == 5712833750 then --2
+print("Animal Simulator Detected, Loading Notifcations!")
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Animal Sim Detected!";
+	Text = "This Script Was Made By WetWipes, Enjoy!";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
+})
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = ("From WetHub");
+	Text = ("Enjoy Using WetHub, " .. player.Name);
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
+})
+elseif game.PlaceId == 142823291 then --2
+print("Murder Mystery Detected, Loading Notifcations!")
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "MM2 Detected!";
+	Text = "This Script Was Made By WetWipes, Enjoy!";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
+})
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = ("From WetHub");
+	Text = ("Enjoy Using WetHub, " .. player.Name);
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
+})
+elseif game.PlaceId == 5272267802 then --3
 print("Be A Toy Detected, Loading Notifcations!")
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
 	Title = "Be A Toy Detected";
-	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Text = "This Script Was Made By WetWipes, Enjoy";
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
@@ -55,7 +103,7 @@ Font = 2;
 Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
 })
-elseif game.PlaceId == 171391948 then
+elseif game.PlaceId == 171391948 then --4
 print("Driving Simulator, Loading Notifcations!")
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
@@ -74,13 +122,13 @@ Font = 2;
 Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
 })
-elseif game.PlaceId == 3101667897 then
+elseif game.PlaceId == 3101667897 then --5
 print("Legends Of Speed Detected, Loading Notifcations!")
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
 	Title = "LOP Detected";
-	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Text = "This Script Was Made By WetWipes, Enjoy";
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
@@ -94,14 +142,14 @@ Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
 })
 elseif
-game.PlaceId == 3527629287 then
+game.PlaceId == 3527629287 then --6
 print("Big Paintball Detected, Loading Notifcations!") 
 NoDropEnabled = false
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
 	Title = "Paintball Detected";
-	Text = "This Script Was Made By WetWipes, Also Join The Discord! The Link Has Been Copied To Your Clipboard.";
+	Text = "This Script Was Made By WetWipes, Enjoy";
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
@@ -115,7 +163,7 @@ Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
 })
 elseif
-game.PlaceId == 2551991523 then
+game.PlaceId == 2551991523 then --7
 print("Broken Bones IV Detected, Loading Notifcations!")
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
@@ -135,7 +183,7 @@ Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
 })
 elseif
-game.PlaceId == 2986677229 then
+game.PlaceId == 2986677229 then --8
 print("Giant Simulator Detected, Loading Notifcations!")
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
@@ -155,7 +203,7 @@ Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
 })
 elseif
-game.PlaceId == 537413528 then
+game.PlaceId == 537413528 then --9
 print("Build A Boat For Treasure Detected, Loading Notifcations!")
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
@@ -174,7 +222,7 @@ Font = 2;
 Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
 })
-elseif game.PlaceId == 1962086868 then
+elseif game.PlaceId == 1962086868 then --10
 print("Tower Of Hell Detected, Loading Notifcations!")
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
@@ -193,7 +241,7 @@ Font = 2;
 Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96;   
 })
-elseif game.PlaceId == 189707 then
+elseif game.PlaceId == 189707 then --11
 print("Natural Disaster Detected, Loading Notifcations!")
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
@@ -212,7 +260,7 @@ Font = 2;
 Color = Color3.fromRGB(244, 4, 4);
 FontSize = Enum.FontSize.Size96; 
 })
-elseif game.PlaceId == 3775649046 then
+elseif game.PlaceId == 3775649046 then --12
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
