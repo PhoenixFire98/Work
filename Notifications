@@ -25,24 +25,13 @@ game.StarterGui:SetCore("SendNotification",  {
 	Callback = NotificationBindable;
 setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
-local player = game.Players.LocalPlayer
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
-	Title = ("From WetHub");
-	Text = ("Enjoy Using WetHub, " .. player.Name);
-	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
-	Duration = 25;
-	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/8E3ZRAMs3a")
-})
 elseif game.PlaceId == 5712833750 then --2
 print("Animal Simulator Detected, Loading Notifcations!")
 local player = game.Players.LocalPlayer
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
-	Title = "Animal Sim Detected!";
+	Title = "Animal Sim";
 	Text = "This Script Was Made By WetWipes, Enjoy!";
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
@@ -50,15 +39,11 @@ game.StarterGui:SetCore("SendNotification",  {
 setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
-	Title = ("From WetHub");
-	Text = ("Enjoy Using WetHub, " .. player.Name);
-	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
-	Duration = 25;
-	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/8E3ZRAMs3a")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Animal Simulator Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
 })
 elseif game.PlaceId == 142823291 then --2
 print("Murder Mystery Detected, Loading Notifcations!")
@@ -66,23 +51,19 @@ local player = game.Players.LocalPlayer
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
-	Title = "MM2 Detected!";
-	Text = "This Script Was Made By WetWipes, Enjoy!";
+	Title = ("MM2 Detected");
+	Text = ("Enjoy Using WetHub, " .. player.Name);
 	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
 	Duration = 25;
 	Callback = NotificationBindable;
 setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
 local player = game.Players.LocalPlayer
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
-	Title = ("From WetHub");
-	Text = ("Enjoy Using WetHub, " .. player.Name);
-	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
-	Duration = 25;
-	Callback = NotificationBindable;
-setclipboard ("https://discord.gg/8E3ZRAMs3a")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Murder Mystery 2 Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
 })
 elseif game.PlaceId == 5272267802 then --3
 print("Be A Toy Detected, Loading Notifcations!")
