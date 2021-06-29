@@ -25,6 +25,28 @@ game.StarterGui:SetCore("SendNotification",  {
 	Callback = NotificationBindable;
 setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
+
+elseif game.PlaceId == 155615604 then --New
+print("Animal Simulator Detected, Loading Notifcations!")
+local player = game.Players.LocalPlayer
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+	Title = "Prison Life";
+	Text = "This Script Was Made By Rover, Enjoy!";
+	Icon = "rbxthumb://type=Asset&id=6845502547&w=150&h=150";
+	Duration = 25;
+	Callback = NotificationBindable;
+setclipboard ("https://discord.gg/8E3ZRAMs3a")
+})
+local player = game.Players.LocalPlayer
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+Text = ("[WetHub] Prison Life Script Loaded! Enjoy Using WetHub, " .. player.Name);
+Font = 2;
+Color = Color3.fromRGB(244, 4, 4);
+FontSize = Enum.FontSize.Size96; 
+})
+
 elseif game.PlaceId == 5712833750 then --2
 print("Animal Simulator Detected, Loading Notifcations!")
 local player = game.Players.LocalPlayer
