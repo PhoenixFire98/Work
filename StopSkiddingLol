@@ -1,8 +1,1 @@
-local function MoneyFarm()
-local ts = game:GetService("TeleportService")
-local p = game:GetService("Players").LocalPlayer
-syn.queue_on_teleport('warn("") repeat wait() until game:IsLoaded() print("Game Loaded") local counter = 150 for i = counter, 0, -1 do mouse1press() wait() mouse1release() end wait(1) for i,v in pairs(game.Workspace:GetChildren()) do if v:IsA("Part") then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame wait(0.5) end end warn("")')
-ts:Teleport(game.PlaceId, p)
-end
-
-MoneyFarm()
+enabled = true
