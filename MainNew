@@ -1,33 +1,11 @@
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-wait(0.0001)
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-wait(0.0001)
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-wait(0.0001)
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-wait(0.0001)
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-warn("This Is The Old WetHub, Go To https://discord.gg/8E3ZRAMs3a To Get The New Script!")
-
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
-	Title = "Wrong Loadstring!";
-	Text = "Join The Discord For The Right Loadstring! Discord Copied To Clipboard!";
+	Title = "Discontiuned";
+	Text = "WetHub Has Been Discontinued, Go To The Discord For More Info!";
 	Icon = "";
 	Duration = math.huge;
-	Button1 = "Ok, Ill Join Now!";
+	Button1 = "Alright";
 	Callback = NotificationBindable;
 setclipboard ("https://discord.gg/8E3ZRAMs3a")
 })
